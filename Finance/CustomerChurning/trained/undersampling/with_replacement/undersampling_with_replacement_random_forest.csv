@@ -1,0 +1,9 @@
+,model,average_precision_score,balanced_accuracy_score,accuracy_score,recall_score,f1_score,cohen_kappa_score,precision_score,roc_auc_score,train_time
+0,"RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight='balanced',
+                       criterion='gini', max_depth=10, max_features=5,
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=4,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)",0.43021639214949414,0.7903694101009235,0.7824561403508772,0.8038740920096852,0.6047358834244081,0.4670831538130117,0.4846715328467153,0.7903694101009235,0.45700955390930176

@@ -1,0 +1,29 @@
+,type,sampling,model,average_precision_score,balanced_accuracy_score,accuracy_score,recall_score,f1_score,cohen_kappa_score,precision_score,roc_auc_score,train_time
+0,"LogisticRegression","under_tomek_links","LogisticRegression(C=100, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=1e-06, verbose=0,
+                   warm_start=False)",0.3100552124420186,0.613833594034584,0.8075187969924812,0.28329297820823246,0.3786407766990292,0.2797156772410162,0.5707317073170731,0.613833594034584,0.02363896369934082
+1,"SVC_rbf","under_tomek_links","SVC(C=1, break_ties=False, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma=0.001, kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.01,
+    verbose=False)",0.20701754385964913,0.5,0.7929824561403509,0.0,0.0,0.0,0.0,0.5,7.534948825836182
+2,"SVC_poly","under_tomek_links","SVC(C=100, break_ties=False, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma=0.001, kernel='poly',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=1e-05,
+    verbose=False)",0.20701754385964913,0.5,0.7929824561403509,0.0,0.0,0.0,0.0,0.5,4.701142311096191
+3,"RandomForest","under_tomek_links","RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=8, max_features=5,
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=6,
+                       min_weight_fraction_leaf=0.0, n_estimators=200,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)",0.4892304877826764,0.7375345518438363,0.8646616541353384,0.5205811138014528,0.6142857142857143,0.5354214714370238,0.7491289198606271,0.7375345518438363,1.48258376121521
+4,"XGB","under_tomek_links","XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0.001,
+              learning_rate=0.1, max_delta_step=0, max_depth=4,
+              min_child_weight=1, missing=None, n_estimators=100, n_jobs=1,
+              nthread=None, objective='binary:logistic', random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+              silent=None, subsample=1, verbosity=1)",0.49481955137094985,0.7467965887419915,0.8651629072681705,0.5447941888619855,0.6258692628650904,0.5458422932698288,0.7352941176470589,0.7467965887419916,0.491518497467041

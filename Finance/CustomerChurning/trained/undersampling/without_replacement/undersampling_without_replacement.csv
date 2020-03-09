@@ -1,0 +1,29 @@
+,type,sampling,model,average_precision_score,balanced_accuracy_score,accuracy_score,recall_score,f1_score,cohen_kappa_score,precision_score,roc_auc_score,train_time
+0,"LogisticRegression","under_without_replacement","LogisticRegression(C=100, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.01, verbose=0,
+                   warm_start=False)",0.3387582384906203,0.7145428442863571,0.7047619047619048,0.7312348668280871,0.5062866722548197,0.32302945980279474,0.3871794871794872,0.7145428442863572,0.013950109481811523
+1,"SVC_rbf","under_without_replacement","SVC(C=100, break_ties=False, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma=0.001, kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)",0.3464564967820186,0.7228085024320212,0.7107769423558897,0.7433414043583535,0.5155331654072208,0.33592724658867423,0.39460154241645246,0.7228085024320212,2.108628511428833
+2,"SVC_poly","under_without_replacement","SVC(C=0.1, break_ties=False, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=4, gamma=0.0001, kernel='poly',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=1e-05,
+    verbose=False)",0.2097701881823202,0.5052068825130172,0.7884711779448621,0.021791767554479417,0.04090909090909091,0.015906524620747153,0.3333333333333333,0.5052068825130172,1.5203490257263184
+3,"RandomForest","under_without_replacement","RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=7, max_features=6,
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=6,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)",0.4339652405656234,0.7825376588313442,0.7969924812030075,0.7578692493946732,0.6071774975751698,0.4775045153930768,0.5064724919093851,0.7825376588313442,0.40111565589904785
+4,"XGB","under_without_replacement","XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0.01,
+              learning_rate=0.1, max_delta_step=0, max_depth=3,
+              min_child_weight=1, missing=None, n_estimators=100, n_jobs=1,
+              nthread=None, objective='binary:logistic', random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+              silent=None, subsample=1, verbosity=1)",0.4290089233856064,0.7825858707064647,0.7899749373433584,0.7699757869249395,0.6028436018957346,0.4690755338588558,0.4953271028037383,0.7825858707064646,0.1756601333618164

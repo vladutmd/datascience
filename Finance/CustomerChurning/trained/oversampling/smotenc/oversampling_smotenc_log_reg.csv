@@ -1,0 +1,6 @@
+,model,average_precision_score,balanced_accuracy_score,accuracy_score,recall_score,f1_score,cohen_kappa_score,precision_score,roc_auc_score,train_time
+0,"LogisticRegression(C=100, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=1e-06, verbose=0,
+                   warm_start=False)",0.3322639957579513,0.6998703636246759,0.7197994987468672,0.6658595641646489,0.49594229035166815,0.31898331602097996,0.39511494252873564,0.6998703636246759,0.04424762725830078

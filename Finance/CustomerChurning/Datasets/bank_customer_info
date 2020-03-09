@@ -1,0 +1,22 @@
+RowNumber
+CustomerId
+Surname
+CreditScore
+Geography
+Gender
+Age
+Tenure
+Balance
+NumOfProducts
+
+How many accounts, bank account affiliated products the person has
+HasCrCard
+
+Does the customer have a credit card through the bank?
+IsActiveMember
+
+Subjective, but for the concept
+EstimatedSalary
+Exited
+
+Did they leave the bank after all?

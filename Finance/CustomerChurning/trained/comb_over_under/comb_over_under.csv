@@ -1,0 +1,29 @@
+,type,sampling,model,average_precision_score,balanced_accuracy_score,accuracy_score,recall_score,f1_score,cohen_kappa_score,precision_score,roc_auc_score,train_time
+0,"LogisticRegression","comb_over_under","LogisticRegression(C=100, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=100, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=1e-06, verbose=0,
+                   warm_start=False)",0.33300289522783794,0.7018684780046711,0.7172932330827068,0.6755447941888619,0.4973262032085561,0.3192098531180647,0.3935119887165021,0.7018684780046711,0.04142880439758301
+1,"RandomForest","comb_over_under","RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features=4,
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=200,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)",0.4464420795051431,0.7633493325333733,0.8275689223057644,0.6537530266343826,0.6108597285067874,0.5007180615394018,0.5732484076433121,0.7633493325333734,2.9876575469970703
+2,"SVC_poly","comb_over_under","SVC(C=100, break_ties=False, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=4, gamma=0.001, kernel='poly',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=1e-05,
+    verbose=False)",0.20701754385964913,0.5,0.20701754385964913,1.0,0.3430232558139535,0.0,0.20701754385964913,0.5,25.490243196487427
+3,"SVC_rbf","comb_over_under","SVC(C=100, break_ties=False, cache_size=200, class_weight='balanced', coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma=0.001, kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.01,
+    verbose=False)",0.34113283667253336,0.7062986136407465,0.7328320802005013,0.6610169491525424,0.5060240963855421,0.3364478632926653,0.4099099099099099,0.7062986136407465,35.79558753967285
+4,"XGB","comb_over_under","XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0.001,
+              learning_rate=0.1, max_delta_step=0, max_depth=8,
+              min_child_weight=1, missing=None, n_estimators=100, n_jobs=1,
+              nthread=None, objective='binary:logistic', random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+              silent=None, subsample=1, verbosity=1)",0.45021615315995334,0.7622993850307485,0.8315789473684211,0.6440677966101694,0.6129032258064516,0.5056017347307553,0.5846153846153846,0.7622993850307486,1.7484688758850098

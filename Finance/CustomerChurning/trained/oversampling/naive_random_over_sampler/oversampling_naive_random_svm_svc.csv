@@ -1,0 +1,5 @@
+,model,average_precision_score,balanced_accuracy_score,accuracy_score,recall_score,f1_score,cohen_kappa_score,precision_score,roc_auc_score,train_time
+0,"SVC(C=100, break_ties=False, cache_size=200, class_weight='balanced', coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma=0.001, kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.01,
+    verbose=False)",0.34330017718162975,0.7208050311770127,0.7047619047619048,0.7481840193704601,0.5120132560066281,0.3293528243768552,0.3891687657430731,0.7208050311770124,41.2442262172699
